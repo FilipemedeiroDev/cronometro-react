@@ -39,7 +39,7 @@
     height: 40%;
 
     border-radius: 100%;
-    border: 4px solid rgba(0, 0, 0, 0.527);
+    border: 0.4rem solid rgba(0, 0, 0, 0.527);
 }
 
 .circle-in {
@@ -52,7 +52,7 @@
     height: 90%;
 
     border-radius: 100%;
-    border: 4px solid rgb(63, 85, 114);
+    border: 0.4rem solid rgb(63, 85, 114);
 }
 
 .timer {
@@ -75,20 +75,20 @@
 
 .pause-button {
     background-color: rgb(63, 85, 114);
-    padding: 16px;
-    border-radius: 50px;
+    padding: 1.6rem;
+    border-radius: 5rem;
 }
 
 .play-button {
     background-color: rgb(63, 85, 114);
-    padding: 16px;
-    border-radius: 50px;
+    padding: 1.6rem;
+    border-radius: 5rem;
 }
 
 .refresh-button {
     background-color: rgb(63, 85, 114);
-    padding: 16px;
-    border-radius: 50px;
+    padding: 1.6rem;
+    border-radius: 5rem;
 }
 
 
@@ -117,24 +117,15 @@
 
 }
 
-@media (max-width: 414px) {
-    .circle-out {
-        width: 78%;
-    }
-
-    .timer {
-        font-size: 4rem;
-    }
-}
 
 
 @media (max-height: 736px) {
     .circle-out {
-        width: 70%;
+        width: 60%;
     }
 
     .timer {
-        font-size: 4rem;
+        font-size: 3.4rem;
     }
 }
 
@@ -143,6 +134,15 @@
         width: 68%;
     }
 
+    .timer {
+        font-size: 3.4rem;
+    }
+}
+
+@media (width: 1024px) {
+    .circle-out {
+        width: 50%;
+    }
     .timer {
         font-size: 3.4rem;
     }
