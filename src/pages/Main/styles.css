@@ -99,7 +99,7 @@
     }
 
     .circle-out {
-        width: 80%;
+        width: 70%;
         height: 40%;
     }
 
@@ -121,7 +121,7 @@
 
 @media (max-height: 736px) {
     .circle-out {
-        width: 60%;
+        width: 78%;
     }
 
     .timer {
@@ -131,11 +131,11 @@
 
 @media (max-width: 375px) {
     .circle-out {
-        width: 68%;
+        width: 70%;
     }
 
     .timer {
-        font-size: 3.4rem;
+        font-size: 4rem;
     }
 }
 
