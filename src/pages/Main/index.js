@@ -28,15 +28,17 @@ function Main() {
 
   return (
     <div className='container'>
-      <div className='cronometro-display'>
+      <div className='cronometro'>
         <h1>Cronômetro</h1>
-        <div className='circle-out'>
-          <div className='circle-in'>
-            <div className='timer'>
-              <span>{hours}:</span>
-              <span>{minutes}:</span>
-              <span>{seconds}:</span>
-              <span>{milliseconds}</span>
+        <div className='display'>
+          <div className='circle-out'>
+            <div className='circle-in'>
+              <div className='timer'>
+                <span>{hours}:</span>
+                <span>{minutes}:</span>
+                <span>{seconds}:</span>
+                <span>{milliseconds}</span>
+              </div>
             </div>
           </div>
         </div>
